@@ -1,9 +1,7 @@
 ## 環境構築
 **Dockerビルド**
 
-1.git clone git@github.com:coachtech-material/laravel-docker-template.git
-
-1. `git clone git@github.com:estra-inc/confirmation-test-contact-form.git`
+1. `git clone git@github.com:pokimaru3/-Tokaji-Suzuka--kadai2.git`
 2. DockerDesktopアプリを立ち上げる
 3. `docker-compose up -d --build`
 
@@ -50,7 +48,7 @@ php artisan db:seed
 - MySQL 8.0.26
 
 ## ER図
-![alt](images/mogitate.png)  
+![alt](images/mogitate.png)
 
 
 ## URL
