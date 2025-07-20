@@ -1,0 +1,115 @@
+body {
+    background-color: #F8F8F8;
+    margin: 0 auto;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 60px 10px;
+}
+
+.product-list__heading {
+    font-size: 32px;
+}
+
+.add-button {
+    background-color: #FFA929;
+    color: black;
+    padding: 13px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+}
+
+.add-button:hover {
+    background-color: #DF9425;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 60px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.search-form__keyword-input {
+    padding: 10px 14.5px;
+    margin-bottom: 20px;
+    width: 240px;
+    height: 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.search-form__button {
+    background-color: #FFA929;
+    border: none;
+    width: 240px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search-form__button:hover {
+    background-color: #DF9425;
+}
+
+.sort-form {
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.option__heading {
+    font-size: 20px;
+}
+
+.sort-form select {
+    padding: 11px 10px;
+    border: 1px solid #FFFFFF;
+    color: #E0DFDE;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.sort-tag {
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    color: #4B4B4B;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.clear-sort {
+    border: 1px solid #F5C800;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-shadow: 0px 0px 10px 0px #0000001A;
+    gap: 20px;
+}
+
+.product-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+}

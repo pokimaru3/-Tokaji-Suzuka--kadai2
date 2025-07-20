@@ -1,0 +1,22 @@
+.header {
+    width: 1512px;
+    height: 53px;
+    opacity: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.header__heading {
+    width: 112px;
+    height: 33px;
+    font-family: 'jsMath-cmti10';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 33px;
+    color: #F5C800;
+}
